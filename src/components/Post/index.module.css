@@ -1,0 +1,99 @@
+.post {
+  padding: 40px;
+  background: #202024;
+  border-radius: 8px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.avatar {
+  display: flex;
+  gap: 10px;
+}
+.img {
+  width: 50px;
+  border-radius: 8px;
+  border: 1px solid #00B37E;
+  padding: 2px;
+  background: #202024;
+}
+.avatar img {
+  width: 100%;
+  object-fit: cover;
+  height: 50px;
+  background-size: cover;
+}
+.info_name {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #fff;
+}
+.info_name span {
+  color: #8D8D99;
+}
+.contentPost {
+  margin-top: 24px;
+}
+.contentPost p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #8D8D99;
+}
+.contentPost a {
+  color: #00B37E;
+  text-decoration: none;
+}
+.post + .post {
+  margin-top: 2rem;
+}
+.commentForm {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #323238;
+}
+.commentForm > strong {
+  color: #fff;
+  line-height: 1.6;
+  display: block;
+  margin-bottom: 16px;
+}
+.commentForm textarea {
+  width: 100%;
+  resize: none;
+  border: 0;
+  outline: none;
+  background: #121214;
+  color: #8D8D99;
+  padding: 10px;
+  height: 96px;
+  border-radius: 8px;
+}.commentForm textarea:focus {
+  border: 1px solid #00875F;
+}
+.commentForm button {
+  background: #00875F;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 16px;
+  width: 108px;
+  height: 49px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+
+}.commentForm button:hover {
+  background: #00B37E;
+}
+
+
+.commentList {
+  margin-top: 2rem;
+}
+footer button {
+  text-align: center;
+}

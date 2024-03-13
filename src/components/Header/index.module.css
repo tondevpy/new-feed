@@ -1,0 +1,13 @@
+.feed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  color: #fff;
+  font-size: 20px;
+  background: #202024;
+}
+.feed img {
+  width: 40px;
+}

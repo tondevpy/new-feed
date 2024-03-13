@@ -1,0 +1,73 @@
+.sidebar {
+  position: relative;
+  background: #202024;
+  border-radius: 8px;
+}
+.sidebar img {
+  width: 100%;
+  height: 72px;
+  border-radius: 8px 8px 0 0;
+  object-fit: cover;
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 45px;
+  right: 50%;
+  left: 50%;
+}
+.avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  padding: 2px;
+  background: #202024;
+  border: 2px solid #00B37E;
+}
+.avatar_info {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.avatar_info div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+.avatar_info strong {
+  color: #E1E1E6;
+}
+.avatar_info span {
+  color: #8D8D99;
+}
+.line {
+  height: 1px;
+  background: #323238;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 24px;
+}
+.profile a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: #00B37E;
+  border: 1px solid #00B37E;
+  border-radius: 8px;
+  padding: 10px;
+  transition: 1s;
+  font-weight: bold;
+}
+.profile a:hover {
+  background: #00B37E;
+  color: #fff;
+}
